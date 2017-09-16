@@ -1,0 +1,146 @@
+{
+  "statusCode": 200,
+  "body": {
+    "results": [
+      {
+        "address_components": [
+          {
+            "long_name": "6219",
+            "short_name": "6219",
+            "types": [
+              "street_number"
+            ]
+          },
+          {
+            "long_name": "North Lenox Avenue",
+            "short_name": "N Lenox Ave",
+            "types": [
+              "route"
+            ]
+          },
+          {
+            "long_name": "Forest Glen",
+            "short_name": "Forest Glen",
+            "types": [
+              "neighborhood",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Chicago",
+            "short_name": "Chicago",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Cook County",
+            "short_name": "Cook County",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          {
+            "long_name": "Illinois",
+            "short_name": "IL",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          {
+            "long_name": "United States",
+            "short_name": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          {
+            "long_name": "60646",
+            "short_name": "60646",
+            "types": [
+              "postal_code"
+            ]
+          },
+          {
+            "long_name": "4821",
+            "short_name": "4821",
+            "types": [
+              "postal_code_suffix"
+            ]
+          }
+        ],
+        "formatted_address": "6219 N Lenox Ave, Chicago, IL 60646, USA",
+        "geometry": {
+          "bounds": {
+            "northeast": {
+              "lat": 41.9944583,
+              "lng": -87.754201
+            },
+            "southwest": {
+              "lat": 41.9943367,
+              "lng": -87.75437149999999
+            }
+          },
+          "location": {
+            "lat": 41.9943975,
+            "lng": -87.75428629999999
+          },
+          "location_type": "ROOFTOP",
+          "viewport": {
+            "northeast": {
+              "lat": 41.9957464802915,
+              "lng": -87.7529372697085
+            },
+            "southwest": {
+              "lat": 41.9930485197085,
+              "lng": -87.7556352302915
+            }
+          }
+        },
+        "place_id": "ChIJ6VWZqpXOD4gROO5pZTKi7kQ",
+        "types": [
+          "premise"
+        ]
+      }
+    ],
+    "status": "OK"
+  },
+  "headers": {
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Mon, 04 Sep 2017 01:11:34 GMT",
+    "expires": "Tue, 05 Sep 2017 01:11:34 GMT",
+    "cache-control": "public, max-age=86400",
+    "access-control-allow-origin": "*",
+    "server": "mafe",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "SAMEORIGIN",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\"",
+    "accept-ranges": "none",
+    "vary": "Accept-Language,Accept-Encoding",
+    "connection": "close"
+  },
+  "request": {
+    "uri": {
+      "protocol": "https:",
+      "slashes": true,
+      "auth": null,
+      "host": "maps.googleapis.com",
+      "port": 443,
+      "hostname": "maps.googleapis.com",
+      "hash": null,
+      "search": "?address=6219%20N.%20Lenox%20Ave%20Chicago%20Illinois%2060646",
+      "query": "address=6219%20N.%20Lenox%20Ave%20Chicago%20Illinois%2060646",
+      "pathname": "/maps/api/geocode/json",
+      "path": "/maps/api/geocode/json?address=6219%20N.%20Lenox%20Ave%20Chicago%20Illinois%2060646",
+      "href": "https://maps.googleapis.com/maps/api/geocode/json?address=6219%20N.%20Lenox%20Ave%20Chicago%20Illinois%2060646"
+    },
+    "method": "GET",
+    "headers": {
+      "accept": "application/json"
+    }
+  }
+}
